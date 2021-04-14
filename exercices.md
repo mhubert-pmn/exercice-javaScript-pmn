@@ -88,3 +88,4 @@
 		somme = entier_1 + entier_2 + entier_3 + entier_4 + entier_5 
 		moyenne = somme / 5
 		afficher "la moyenne est" + moyenne
+	fin
