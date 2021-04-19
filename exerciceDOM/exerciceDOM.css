@@ -1,0 +1,29 @@
+.contain {
+  height: 30vh;
+  display: flex;
+}
+
+.toRight {
+  justify-content:flex-end
+}
+
+.text {
+  display: none;
+}
+
+.animation {
+  animation: 3s linear 0.1s slidein;
+}
+
+@keyframes slidein {
+  from {
+    width: 100%;
+  }
+
+  to {
+    margin-left: 130%;
+    width: 100%;
+  }
+}
+
+
